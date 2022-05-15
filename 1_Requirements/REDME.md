@@ -1,7 +1,7 @@
 <H2>
 Besic requirement of wiper controller<br>
                <h4>
-                iper blade<br>
+                Wiper blade<br>
                 link<br>
                 switch<br>
                 motor<br>
