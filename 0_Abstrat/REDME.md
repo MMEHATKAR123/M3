@@ -65,6 +65,27 @@ needed for interfacing between all the units.<br>
  Excellent repeatability<br>
  Unidirectional sensitivity<br>
  Small size<br>
+          <h2>
+           Disadvantages<br>
+           <h4>
+             Alert will be start when rain is there, sometimes it disturbs human. <br>
+             It has to be in few heights so that something could not enter <br>
+            <h2>
+            CIRCUIT DIAGRAM WORKING<br>
+             <h4>
+             ![circuit digram of speed controller](https://user-images.githubusercontent.com/101090081/168491414-bbe63f40-a698-4dc7-8715-09bffd1fdd9b.png)<br>
+              <h2>
+               besic requirement of wiper controller<br>
+               <h4>
+                iper blade<br>
+                link<br>
+                switch<br>
+                motor<br>
+                arm<br>
+                
+
+
+
           
           
           
