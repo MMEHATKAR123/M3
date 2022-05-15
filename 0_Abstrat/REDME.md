@@ -77,7 +77,7 @@ needed for interfacing between all the units.<br>
               <h2>
                besic requirement of wiper controller<br>
                <h4>
-                iper blade<br>
+                Wiper blade<br>
                 link<br>
                 switch<br>
                 motor<br>
