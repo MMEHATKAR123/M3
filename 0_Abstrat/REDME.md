@@ -1,92 +1,37 @@
- <h1>
- ABSTRACT <br>
-  <h4>
- Over the past two decades, the automotive industry has aggressively researched ways to exploit modern computing and electronic advances in the development of safety, reliability, and entertainment technologies for vehicles. With drivers exposed to an ever increasing number of distractions, automatic rain-sensing wiper systems become an even more appealing feature, as they work to minimize the time the driver must take her hands off the wheel. Most traditional systems offer intermittent as well as variable speed operation. The traditional wiper system however requires driver constant attention in adjusting the wiper speed. Traditional windshield wiper speed constantly varies according to time and vehicle’s speed. Because the manual adjustment of the wiper distracts driver's attention, which may be a direct cause accidents. This is review paper for automatic wiper in various method and also explain the basic skeleton for adjust speed of wiper automatically cording to the amount of water on the windshield and in addition with also in advance removal of moisture inside the car while raining. 
-   <br>
-   <h2>
-   INTRODUCTION<br>
-    <h4>
-    1)The team developed an autonomous windshield
-wiper system for automobiles using IR and impedance
-sensors, a microcontroller, and signal conditioning circuitry.
-The sensors send an input signal to the microcontroller that
-controls the wiper motor through interfacing with the
-automobile wiper control circuitry. The motivation of the
-project centered on developing a reliable automatic
-windshield wiper system that is commercially available to a
-large market of automobile owners. Research was done on
-similar products in the market and articles from academic
-sources for the foundation of our design approach.<br>
-2) The project aims to develop an automatic windshield
-wiper system that automates the process of the driver’s
-manual response to rain on the windshield. Car
-manufacturers will be the primary customers for system
-integration into their future automobile lines, and the
-secondary customers will be individual automobile owners,
-using the system as an after-market product.<br>
-3)The National Highway and Transportation Safety
-Association reports that twenty-six percent of all car accidents
-are caused by distractions due to talking on cell phones, eating
-while driving, and other similar distractions that take a
-driver’s focus off the road. The distraction considered in this
-project is the adjustment of wiper speed based on the intensity
-of precipitation falling. By eliminating the need for drivers to
-adjust wiper speed while driving, the number of accidents
-caused by distraction can be slightly reduced.<br>
-<br>
-     <h2>
-      High Level Function Blocks<br>
-      <h4>
-       The rain detection box contains a series of rain
-sensors. The data processing unit encloses the
-microcontroller, and the motor control module is composed of
-the wiper motor and its control circuit. After establishing the
-functional diagram, a high level system block diagram was
-drawn. The second diagram represents a more detailed
-version of the functional diagram.depicts the contents
-of each unit. The rain detection unit uses two types of sensors
-whose outputs are normalized by an input signal module. The
-data processing is performed by a microcontroller, and its
-results are fed into an output signal module which is the input
-to the motor control box. The two signal modules were
-needed for interfacing between all the units.<br>
-       <h4>
-        ![High level digram](https://user-images.githubusercontent.com/101090081/168490066-92276ca7-78e9-45c8-89e7-027331d46710.png)
-<br>
-        <h2>
-         Advantages
-         <br>
-         <h4>
-Low cost<br>
- High sensitivity<br>
- High mechanical stiffness<br>
- Broad frequency range<br>
- Exceptional linearity<br>
- Excellent repeatability<br>
- Unidirectional sensitivity<br>
- Small size<br>
-          <h2>
-           Disadvantages<br>
-           <h4>
-             Alert will be start when rain is there, sometimes it disturbs human. <br>
-             It has to be in few heights so that something could not enter <br>
-            <h2>
-            CIRCUIT DIAGRAM WORKING<br>
-             <h4>
-             ![circuit digram of speed controller](https://user-images.githubusercontent.com/101090081/168491414-bbe63f40-a698-4dc7-8715-09bffd1fdd9b.png)<br>
-              <h2>
-               besic requirement of wiper controller<br>
-               <h4>
-                Wiper blade<br>
-                link<br>
-                switch<br>
-                motor<br>
-                arm<br>
-                
+<h1>
+Abstract<br>
+ <h4>
+The wiper speed control framework controls the operating speed of the wiper according to the downpour. Remove raindrops and other liquids from the windshield of the vehicle. In previous frames, the wiper had to be operated manually, which made it difficult to raise the wiper. Next, this strategy is proposed to solve this problem. This task has the potential to accelerate the evolution of automotive frameworks by providing robotized transmissions. Most of the vehicles have two wipers. One is in the rear window and the other is in the front window. The wiper parts found on vehicles are the elastic sharp edges, the wiper arm that holds the cutting edge, the spring linkage, and the wiper coil parts. Caution Gears can generate the force expected to move the wiper when needed. Today, we use a computer-controlled wiper system at any point in the middle of the cycle, resulting in a home position. This is the new wiper system behind the wiper arm. The guidelines for this proposed wiper frame are substantially the same as those for other existing traditional wipers.<br>
+  <h1>
 
+Brief Introduction<br>
+   <h4>
+The car industry has been intensively researching ways to harness modern computing and electronic developments in the development of safety, dependability, and entertainment technologies for the past two decades. Despite this, for a variety of reasons, automatic rain-sensing wiper systems are rather uncommon in modern vehicles. In new cars, they are frequently too pricey, unattractive, or unreliable to be desirable. Many attempts have been made to develop an effective, dependable, and inexpensive rain detection and wiper control system that adjusts the vehicle's speed and intermittent interval automatically based on the amount of rain. Optical sensors are commonly used to monitor the amount of water.<br>
 
+The fact that the refraction angle and amount of light reflection varies when the two windshields are moist is used in this sort of sensor. Despite their widespread use, optical sensors have several drawbacks. The sensitivity to external light is one of the drawbacks. Another issue arises when driving at night, via tunnels, or even in underground parking. Many systems still engage the wiper as the automobile exits tunnels or underground parking lots for this reason. Another flaw, possibly the most serious, is that the sensing area is a small piece of the windshield. As a result, the system can only operate in a small region.<br>
 
-          
-          
-          
-         
+The wiper system may fail to activate when there are some raindrops on the driver’s line of sight, but not on the sensing area. They are often too expensive, too unsightly, or too unreliable to be desired in new automobiles.<br>
+    <h1>
+
+OBJECTIVE OF PROJECT<br>
+     <h4>
+Windshield wipers may be a little component of your vehicle, but they have a significant impact on your driving and overall safety.<br>
+
+At the touch of a button, they remove rain, snow, dirt, pollen, frost, and other debris fast and smoothly!<br>
+
+The wiper arms are moved across the windshield by the windshield wiper motor. The metal or hard plastic arms pull a thin rubber (or silicone) blade over the windshield to clean water from the lens, allowing you to see the road better.<br>
+
+Wiper blades break, rip, and lose their flexibility and functionality with time. Wipers are harmed by a variety of factors, including road grit, bird droppings, severe temperatures, and UV light.<br>
+<h1>
+Features<br>
+ <h3>
+  
+1)It will lock the vehicle when the button is squeezed once.<br>
+
+2)It will open the vehicle when the button is squeezed two times.<br>
+
+3)It will wiper on and it moves clock wise bearing and when the button is squeezed threefold.<br>
+
+4)It will wiper off and it moves hostile to clock wise heading and when the button is squeezed multiple times.<br>
+
+5)It will wiper complete one cycle when the button is squeezed multiple times.<br>
